@@ -1,68 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E-commerce</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-
-<body>
-    <div class="container">
-        <div class="row my-2" style="height: 80px; background-color: rgb(238, 253, 253)">
-            <div class="col-ig mx-1 rounded-circle d-flex align-items-center justify-content-center"
-                style="height: 80px; background-color:aliceblue"><b>Karrel Shop</b></div>
-        
-        </div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="../TugasMandiri/img/55.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide </h5>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="1800">
-                    <img src="../TugasMandiri/img/66.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="../TugasMandiri/img/77.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    
-    <div class="container px-4 px-lg-5 mt-5">
+<div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/3.jpg" alt="...">
+                    <img src="img/3.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -80,7 +21,7 @@
                     <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
                     </div>
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/5.jpg" alt="...">
+                    <img src="img/5.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -106,7 +47,7 @@
                     <!-- Sale badge-->
                     <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem"></div>
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/7.jpg" alt="...">
+                    <img src="img/7.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -122,7 +63,7 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/8.png" alt="...">
+                    <img src="img/8.png" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -148,7 +89,7 @@
                     <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
                     </div>
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/13.jpg" alt="...">
+                    <img src="img/13.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -164,7 +105,7 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/14.jpg" alt="...">
+                    <img src="img/14.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -182,7 +123,7 @@
                     <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
                     </div>
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/15.jpg" alt="...">
+                    <img src="img/15.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -206,7 +147,7 @@
             <div class="col mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img src="../TugasMandiri/img/16.jpg" alt="...">
+                    <img src="img/16.jpg" alt="...">
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
