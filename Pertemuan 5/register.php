@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['username']){
+if(isset($_SESSION['username'])){
     header('Locatiom:admin.php');
 }
 ?>
@@ -31,7 +31,7 @@ if(isset($_SESSION['username']){
                 <td>
                     <select name="gender" id="gender">
                         <option value="pria">Pria</option>
-                        <optiom value="wanita">wanita</option>
+                        <option value="wanita">wanita</option>
 </select>
 </td>
 </tr>
@@ -48,6 +48,6 @@ if(isset($_SESSION['username']){
 </table>
 </form>
 <br><br>
-Sudah memiliki akun> <a href="login-page.php">Login</a>
+Sudah memiliki akun? <a href="login-page.php">Login</a>
 </body>
 </html>

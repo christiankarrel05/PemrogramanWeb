@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
 
     if ($username == $user ['username'] && password_verify($_POST['password'],
     $user['password'])) {
-        
+
 
         $_SESSION['username'] = $username;
 
@@ -28,6 +28,6 @@ if(isset($_POST['submit'])){
         window.location="login-page.php"; </script>';
     }
 } else {
-    echo '<script> window.location="login-page.php"; </script>';
+    echo '<script> window.location="register.php"; </script>';
 }
 ?>
