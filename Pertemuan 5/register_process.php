@@ -18,7 +18,3 @@ if(isset($_POST['submit'])) {
     echo "Users " . $username ." added succesfully. <a href='login-page.php'>Login</a>";
     if($result){
         header( "refresh:5;url=login-page.php" );
-        echo 'Succes Register, You will be redirected to Login page in 5 secs.';
-    }
-}
-?>
