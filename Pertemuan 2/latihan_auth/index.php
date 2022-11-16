@@ -3,7 +3,7 @@ session_start();
 
 $database = [
     'username' => 'christian',
-    'password' => 'kontol'
+    'password' => 'open123'
 ];
 
 if(isset($_POST['submit'])){
